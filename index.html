@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <!-- Metadata of the Webpage -->
@@ -15,7 +16,7 @@
       content="Yonah Tenenbaum, Jonah Tenenbaum"
     />
     <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
     <!-- Webpage Title -->
     <title>Yonah Tenenbaum</title>
 
@@ -28,7 +29,7 @@
       <div class="header">
         <h1>
           <span class="site-title">YONAH TENENBAUM</span>
-          <span class="site-description">Programmer • Business & Economics • Ethical Hacker</span>
+          <span class="site-description">Programmer • Business & Economics • Cyber Security</span>
         </h1>
         <div class="header-icons">
           <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/yonah-tenenbaum-395782176/">
@@ -37,16 +38,16 @@
           <a aria-label="My Github Profile" target="_blank" href="https://github.com/gogoguy">
             <i class="icon fa fa-github-alt" aria-hidden="true"></i>
           </a>
-          <a aria-label="My Résumé" target="_blank" href="assets/CV.pdf">
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="mailto:" target="_blank"
-            ><i class="icon fa fa-envelope"></i
+
+          <a aria-label="Send Email" href="#contact" data-scroll>
+            <i class="icon fa fa-envelope"></i
           ></a>
         </div>
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="#contact" data-scroll>Contact</a>
+        </div>
         </div>
       </div>
       <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -73,7 +74,7 @@
           />
         </picture>
         <p>
-          I am currently studying in the Business and Economics program at Reichman University. I am interested in ethical hacking, programming, and finance.
+          I am currently studying Business and Economics at Reichman University. I am interested in cyber security, programming, and finance.
           <p>I enjoy making music (guitar, piano, drums), and I really like sushi. </p>
         </p>
       </div>
@@ -222,32 +223,22 @@
 
     </section>
 
+    <section id="contact">
+      
+      <div id="iframeContainer">
 
-    <div id="form-message">Or fill out the form:</div>
+    <iframe src="contact.html" scrolling="no" height="534"></iframe>
+  
+
+</div>  
+  </section>
+
     
-    <form action="https://hook.eu2.make.com/8bo77bzy77xjrnbhwh9d532y7nfc7nwj" method="POST" name="form">
-    <label for="name">name:</label><br>
-    <input id="name" name="name" required type="text">
-    <br>
-    <br>
-    <label for="email">email:</label><br>
-    <input id="email" name="email" required type="text">
-    <br><br>
-
-    <label for="message">Message:</label><br>
-    <textarea required rows='8' cols='40' name="message" id="message">Leave me a message!</textarea>
-    <br>
-    <input type='submit' value='Submit' id="Submit">
-    </form>
-
-
-
-    <footer class="footer">
-      <p>&copy; Yonah Tenenbaum 2024</p>
-    </footer>
+      
+  
 
     <!-- Import JS: Particles Theme -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
     <!-- Import JS: Sweet Scroll -->
     <script src="./assets/js/sweet-scroll.min.js"></script>
     <!-- Import JS: Google Analytics -->
